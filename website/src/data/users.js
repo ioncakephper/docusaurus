@@ -1003,6 +1003,7 @@ const Users = [
     source: 'https://github.com/sciwp/sciwp-framework',
     tags: ['opensource'],
   },
+
   {
     title: 'Single SPA',
     description: 'A javascript router for front-end microservices',
@@ -1011,12 +1012,20 @@ const Users = [
     source: 'https://github.com/single-spa/single-spa',
     tags: ['opensource', 'large', 'versioning', 'i18n'],
   },
+
   {
     title: 'smash.gg',
     description: 'Turning passions into careers',
     preview: require('./showcase/smashgg.png'),
     website: 'https://developer.smash.gg',
     source: 'https://github.com/smashgg/developer-portal',
+    tags: ['opensource','product'],
+  },
+  {
+    title: 'Skelosaurus',
+    description: 'Skeleton documentation generator for Docusaurus-powered projects',
+    website: 'https://skelosaurus.com',
+    source: 'https://github.com/ioncakephper/skelosaurus',
     tags: ['opensource','product'],
   },
   {
